@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galería de Imágenes</title>
+  <link rel="stylesheet" href="static/estilos.css">
+</head>
+<body>
+  <header>
+    <h1 class="titulo-animado">Galería de Imágenes</h1>
+  </header>
+
+  <main>
+    <div class="galeria">
+      <div class="imagen anim1">
+        <img src="imagenes/GatoElegante.jpg" alt="Gato 1">
+        <div class="descripcion">Gato tranquilo y elegante.</div>
+      </div>
+      <div class="imagen anim2">
+        <img src="imagenes/GatoCurioso.jpg" alt="Gato 2">
+        <div class="descripcion">Gato curioso explorando.</div>
+      </div>
+      <div class="imagen anim3">
+        <img src="imagenes/GatoJugueton.jpg" alt="Gato 3">
+        <div class="descripcion">Gato juguetón al sol.</div>
+      </div>
+    </div>
+
+    <div class="botonera">
+      <a href="index.html" class="boton">Inicio</a>
+      <a href="pagina1.html" class="boton">Perfil</a>
+      <a href="pagina3.html" class="boton">Blog</a>
+    </div>
+  </main>
+
+  <footer>
+    <p>© <span id="fecha"></span> - Desarrollado por Axel Vera y Aragón</p>
+  </footer>
+  <script>document.getElementById("fecha").textContent=new Date().getFullYear();</script>
+</body>
+</html>

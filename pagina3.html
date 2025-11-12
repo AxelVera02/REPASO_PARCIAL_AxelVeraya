@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog Personal</title>
+  <link rel="stylesheet" href="static/estilos.css">
+</head>
+<body>
+  <header>
+    <h1 class="titulo-animado">Blog Personal</h1>
+  </header>
+
+  <main>
+    <table class="tabla blog">
+      <tr>
+        <th>Ciudades Favoritas</th>
+        <th>Clubs Favoritos</th>
+        <th>Comidas Favoritas</th>
+      </tr>
+      <tr>
+        <td>Asunción</td>
+        <td>Real Madrid</td>
+        <td>Pizza</td>
+      </tr>
+      <tr>
+        <td>Encarnación</td>
+        <td>Liverpool</td>
+        <td>Sushi</td>
+      </tr>
+      <tr>
+        <td>Villarrica</td>
+        <td>Sunderland</td>
+        <td>Empanadas</td>
+      </tr>
+    </table>
+
+    <div class="leer-mas">
+      <a href="https://es.wikipedia.org/wiki/Paraguay" target="_blank" class="boton">Leer más sobre Paraguay</a>
+      <a href="https://www.fifa.com" target="_blank" class="boton">Leer más sobre fútbol</a>
+      <a href="https://www.directoalpaladar.com/recetario/comidas-ricas-101-recetas-muy-sabrosas-para-disfrutar-a-grande" target="_blank" class="boton">Leer más sobre comida</a>
+    </div>
+
+    <div class="botonera">
+      <a href="index.html" class="boton">Inicio</a>
+      <a href="pagina1.html" class="boton">Perfil</a>
+      <a href="pagina2.html" class="boton">Galería</a>
+    </div>
+  </main>
+
+  <footer>
+    <p>© <span id="fecha"></span> - Desarrollado por Axel Vera y Aragón</p>
+  </footer>
+  <script>document.getElementById("fecha").textContent=new Date().getFullYear();</script>
+</body>
+</html>

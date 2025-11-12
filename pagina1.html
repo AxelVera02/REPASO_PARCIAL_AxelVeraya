@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Perfil Profesional</title>
+  <link rel="stylesheet" href="static/estilos.css">
+</head>
+<body>
+  <header>
+    <h1 class="texto-rotativo">Perfil Profesional</h1>
+  </header>
+
+  <main>
+    <section>
+      <p>
+        Soy <b>Axel Vera y Aragón</b>, estudiante apasionado por la tecnología, el desarrollo web y el trabajo en equipo.
+        En esta página encontrarás mi información profesional y enlaces de contacto.
+      </p>
+
+      <table class="tabla">
+        <tr><th>Año</th><th>Estudio</th><th>Institución</th></tr>
+        <tr><td>2018</td><td>Bachillerato</td><td>Colegio Nacional</td></tr>
+        <tr><td>2020</td><td>Curso Técnico</td><td>SNPP</td></tr>
+        <tr><td>2023</td><td>Desarrollo Web</td><td>UTIC</td></tr>
+        <tr><td>2024</td><td>Diseño Gráfico</td><td>Certificado Online</td></tr>
+        <tr><td>2025</td><td>Lic. en Informática</td><td>UTIC</td></tr>
+      </table>
+    </section>
+
+    <section class="contacto">
+      <h2>Contacto</h2>
+      <div class="iconos">
+        <a href="https://facebook.com" target="_blank" class="icono facebook">📘</a>
+        <a href="https://instagram.com" target="_blank" class="icono instagram">📸</a>
+        <a href="https://linkedin.com" target="_blank" class="icono linkedin">💼</a>
+      </div>
+      <p><a href="Documentos/Curriculum_Axel_Vera_y_Aragon.pdf" target="_blank" class="cv-link">Ver Currículum PDF</a></p>
+    </section>
+
+    <div class="botonera">
+      <a href="index.html" class="boton">Inicio</a>
+      <a href="pagina2.html" class="boton">Galería</a>
+      <a href="pagina3.html" class="boton">Blog</a>
+    </div>
+  </main>
+
+  <footer>
+    <p>© <span id="fecha"></span> - Desarrollado por Axel Vera y Aragón</p>
+  </footer>
+  <script>document.getElementById("fecha").textContent=new Date().getFullYear();</script>
+</body>
+</html>

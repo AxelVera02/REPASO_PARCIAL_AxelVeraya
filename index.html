@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Repaso Parcial - Axel Vera y Aragón</title>
+  <link rel="stylesheet" href="static/estilos.css">
+</head>
+<body>
+  <header>
+    <h1 class="titulo-animado">Repaso Parcial - Axel Vera y Aragón</h1>
+  </header>
+
+  <main>
+    <section class="descripcion">
+      <p>
+        Bienvenido al sitio web del repaso parcial.  
+        Aquí podrás navegar por las diferentes páginas:
+      </p>
+      <ul>
+        <li><b>Página 1:</b> Perfil profesional y contacto.</li>
+        <li><b>Página 2:</b> Galería de imágenes con animaciones.</li>
+        <li><b>Página 3:</b> Blog personal con tus gustos e intereses.</li>
+      </ul>
+    </section>
+
+    <div class="botonera">
+      <a href="pagina1.html" class="boton b1">Perfil Profesional</a>
+      <a href="pagina2.html" class="boton b2">Galería</a>
+      <a href="pagina3.html" class="boton b3">Blog Personal</a>
+    </div>
+  </main>
+
+  <footer>
+    <p>© <span id="fecha"></span> - Desarrollado por Axel Vera y Aragón</p>
+  </footer>
+
+  <script>
+    document.getElementById("fecha").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
